@@ -8,7 +8,7 @@ async function run(){
 
     const language = readlineSync.question("Enter language(javascript/python):");
 
-    console.log("paste your code (end with CTRL+V):");
+    console.log("paste your code");
     const code = readlineSync.question("");
 
     const prompt = buildPrompt(code,language);
