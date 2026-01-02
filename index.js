@@ -1,5 +1,5 @@
 import readlineSync from "readline-sync";
-import { explainCode } from "./openai.js";
+import { explainCode } from "./groq.js";
 import { buildPrompt } from "./promptBuilder.js";
 import { saveExplanation } from "./storage.js";
 
